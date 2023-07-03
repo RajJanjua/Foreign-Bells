@@ -1,0 +1,88 @@
+@use "../../scss/" as *;
+
+.Home {
+    margin-bottom: 3rem;
+}
+
+.Home-item {
+    padding: 8rem 0;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // margin-bottom: 3rem;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        @include overlay();
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-image: linear-gradient(to top, $body-bg, rgba($black, 0));
+    }
+
+    &__content {
+        @include flex(center, center);
+        position: relative;
+        margin-left: 9rem;
+
+        &__info {
+            width: 55%;
+            padding: 0 3rem;
+            position: relative;
+
+            @include tablet {
+                width: 100%;
+                align-items: center;
+            }
+
+            & > * ~ * {
+                margin-top: 3rem;
+            }
+
+            .title {
+                font-size: 3rem;
+                font-weight: 700;
+                line-height: 1;
+
+                @include tablet {
+                    font-size: 2rem;
+                }
+            }
+
+            .overview {
+                font-weight: 700;
+            }
+
+            .btns > * ~ * {
+                margin-left: 1rem;
+            }
+        }
+
+        &__image {
+            @include flex(center, flex-start);
+            position: relative;
+
+            img {
+                border-radius: $border-radius;
+                box-shadow: $box-shadow;
+            }
+
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+}
