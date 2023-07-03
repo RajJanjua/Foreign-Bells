@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Foreign-Bells/static/css/main.2763afe3.css",
+    "main.js": "/Foreign-Bells/static/js/main.f03d7e26.js",
+    "static/media/Home_item.jpg": "/Foreign-Bells/static/media/Home_item.04e94bee86c838ddc018.jpg",
+    "static/media/background_img.jpg": "/Foreign-Bells/static/media/background_img.ca2371755c4497005c74.jpg",
+    "static/media/background_top2.jpg": "/Foreign-Bells/static/media/background_top2.30bccb4e8204fa536fef.jpg",
+    "static/media/why-choose-us_img.jpeg": "/Foreign-Bells/static/media/why-choose-us_img.4764769809e5d8c691fb.jpeg",
+    "static/media/footer-bg1.jpg": "/Foreign-Bells/static/media/footer-bg1.916b71d78d2a2e44c8b8.jpg",
+    "static/media/bg-2.jpg": "/Foreign-Bells/static/media/bg-2.dbd8945f37ad0248c71d.jpg",
+    "static/media/bg-3.jpg": "/Foreign-Bells/static/media/bg-3.81fd971cde9c2ff632d7.jpg",
+    "static/media/bg-4.jpg": "/Foreign-Bells/static/media/bg-4.f65b2439d1349bd2a709.jpg",
+    "static/media/bg-5.jpg": "/Foreign-Bells/static/media/bg-5.c1e928e1be23b2337d45.jpg",
+    "static/media/logo.png": "/Foreign-Bells/static/media/logo.0088442ba9f4dbf9d38c.png",
+    "index.html": "/Foreign-Bells/index.html",
+    "main.2763afe3.css.map": "/Foreign-Bells/static/css/main.2763afe3.css.map",
+    "main.f03d7e26.js.map": "/Foreign-Bells/static/js/main.f03d7e26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2763afe3.css",
+    "static/js/main.f03d7e26.js"
+  ]
+}
